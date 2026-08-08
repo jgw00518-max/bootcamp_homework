@@ -16,7 +16,7 @@ class _HomeState extends State<Home> {
   final bool _isRunning = true; // 타이머의 동작 여부
   late Color _backgroundColor;  // 배경색
   late bool _color;             // 변하는 배경색
-  final int changeInterval = 2; // 배경색이 변하는 주기 설정
+  final int changeInterval = 1; // 배경색이 변하는 주기 설정
   late int _timerCount = 0;     // 타이머 동작 횟수를 세는 카운터
 
 
